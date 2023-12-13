@@ -106,6 +106,8 @@
                      cell.classList.add('negative');
                    } else if (key === 'Stock' && rowData[key] === 'In stock') {
                      cell.classList.add('positive');
+                   } else if (key === 'Stock' && rowData[key] === 'Finishing fast') {
+                     cell.classList.add('middle');
                    }
                  }
                });
